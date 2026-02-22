@@ -383,7 +383,7 @@ WHERE NOT EXISTS (
 )
 ORDER BY c.entidad, d.MUNICIPIO_RES;
 
--- 6 consulta 5 con indices
+
 
 
 CREATE NONCLUSTERED INDEX IX_datoscovid_Entidad_Recuperados_Neumonia
