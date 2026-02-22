@@ -37,8 +37,6 @@ FROM OPENQUERY(MYSQL_SUR, 'SELECT * FROM covidhistorico.covidhistorico_sur LIMIT
 
 
 
-	-----------------
-
 
 EXEC sp_addlinkedserver
    @server = 'SQL_NORTE',
@@ -298,3 +296,4 @@ SELECT
 FROM RankingMensual
 WHERE Ranking = 1
 ORDER BY Año, Estado;
+
